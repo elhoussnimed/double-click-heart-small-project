@@ -1,10 +1,14 @@
 const image = document.querySelector(".image");
+const img = image.querySelector("img");
 const likesNumber = document.querySelector(".likesNumber");
 
 let currentLikesNumber = 0;
 
-image.addEventListener("dblclick", (e) => {
+img.addEventListener("click", (e) => {
   e.preventDefault();
+});
+
+image.addEventListener("dblclick", (e) => {
   likeImage(e);
   likesNumberCounter();
 });
