@@ -29,8 +29,6 @@ body {
     aspect-ratio: 3 / 4;
     cursor: pointer;
     position: relative;
-    -webkit-tap-highlight-color: transparent;
-    user-select: none;
 }
 
 .image .fa-heart {
