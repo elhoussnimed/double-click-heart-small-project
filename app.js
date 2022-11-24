@@ -4,6 +4,7 @@ const likesNumber = document.querySelector(".likesNumber");
 let currentLikesNumber = 0;
 
 image.addEventListener("dblclick", (e) => {
+  e.preventDefault();
   likeImage(e);
   likesNumberCounter();
 });
